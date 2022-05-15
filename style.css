@@ -1,0 +1,69 @@
+/* body{
+    line-height: 1;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote:after,q:before,q:after{
+    content: '';
+    content:none ;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+} */
+
+
+
+/* Style */
+
+body{
+    font : 16px/28px arial,sans-serif;
+    /* font ukuran 16 ,jarak antar baris 28 */
+    background-color: #eaeaea;
+    color: #333; 
+     /* warnatulisan */
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+
+}
+
+.header{
+    padding: 20px ;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    /*sejajar kekanan dan margin dapat diubah  */
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    /* ubah jadi garis bawah menghilang */
+    color: salmon;
+}
+
+.header a:hover{
+    /* ubah navigasi saat kursor kenavigasi berubah warna */
+    background-color: lightskyblue;
+    color: white;
+    padding: 3px;
+}
